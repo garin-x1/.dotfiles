@@ -1,0 +1,41 @@
+local options = {
+  backspace = "indent,eol,start",
+  background = "dark",
+  clipboard = "unnamedplus",
+  completeopt = { "menu", "menuone", "noselect" },
+  fileencoding = "utf-8",
+  hlsearch = false,
+  ignorecase = true,
+  mouse = "a",
+  showmode = false,
+  showtabline = 2,
+  smartindent = true,
+  smartcase = true,
+  splitbelow = true,
+  splitright = true,
+  swapfile = false,
+  backup = false,
+  undofile = true,
+  updatetime = 100,
+  writebackup = false,
+  expandtab = true,
+  shiftwidth = 2,
+  tabstop = 2,
+  cursorline = false,
+  number = true,
+  relativenumber = true,
+  wrap = false,
+  termguicolors = true,
+  laststatus = 3,
+  scrolloff = 10,
+  title = true,
+  timeoutlen = 1000,
+  hidden = true,
+  pumheight = 10,
+  signcolumn = "yes",
+  fillchars = 'eob: '
+}
+
+for keys, values in pairs(options) do
+  vim.opt[keys] = values
+end

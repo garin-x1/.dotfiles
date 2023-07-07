@@ -1,0 +1,28 @@
+*{
+    border: none
+}
+
+window{
+    font-size: 19px;
+    /*font-family:;*/
+    background-color: #597498;
+    color: #E2D4BA;
+}
+
+#entry{
+    /*background-color: #597498;*/
+}
+
+#entry:selected{
+    background-color: #4E5B72;
+    color: white;
+}
+
+#input{
+    background-color: #597498;
+    color: white;
+}
+
+#input::placeholder{
+    color: red;
+}
